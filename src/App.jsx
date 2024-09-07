@@ -1,9 +1,22 @@
+import 'rsuite/dist/rsuite.min.css';
+
+import Hero_Section from "./Sections/Hero"
 
 function App() {
 
+
+
   return (
     <>
-     <h1 className="text-9xl text-red-700">wtf</h1>
+     
+     <Hero_Section>
+     </Hero_Section>
+     <div>
+      <h1>wtf</h1>
+     </div>
+    
+
+  
     </>
   )
 }
