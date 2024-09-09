@@ -17,23 +17,35 @@ module.exports = {
       screens: {
         "2xl": "1400px",
       },
-
     },
     extend: {
+      // Merging animations
+      animation: {
+        orbit: "orbit calc(var(--duration)*1s) linear infinite",
+        bounceHero: 'bounceHero 5s ease-in-out infinite',
+      },
+      // Merging keyframes
+      keyframes: {
+        orbit: {
+          "0%": {
+            transform:
+              "rotate(0deg) translateY(calc(var(--radius) * 1px)) rotate(0deg)",
+          },
+          "100%": {
+            transform:
+              "rotate(360deg) translateY(calc(var(--radius) * 1px)) rotate(-360deg)",
+          },
+        },
+        bounceHero: {
+          '0%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(50px)' },
+          '100%': { transform: 'translateY(0)' },
+        },
+      },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
       },
-      animation: {
-        bounceHero: 'bounceHero 5s ease-in-out infinite',
-      },
-      keyframes: {
-        bounceHero: {
-          '0%': { transform: 'translateY(0)'   },
-          '50%': { transform: 'translateY(50px) ' },
-          '100%': { transform: 'translateY(0) ' },
-        },
-      },
     },
   },
-  plugins: [require("tailwindcss-animate")],
-}
+  plugins: [require("tailwindcss-animate"), require('daisyui')],
+};
