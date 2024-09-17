@@ -1,4 +1,4 @@
-import img from "../assets/content_thumb.png";
+//import img from "../assets/content_thumb.png";
 import { BiChevronsRight } from "react-icons/bi";
 import { useMediaQuery } from 'react-responsive';
 import { OrbitingCirclesDemo } from "./OrbitingCirclesDemo";

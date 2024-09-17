@@ -8,7 +8,7 @@ function About_Section() {
 
     return (
         <>
-            <section
+            <section id="about"
                 className={`flex flex-wrap bg-slate-200 mt-20 mx-auto justify-center items-center ${isBetween680And767 ? 'w-[90%]' : 'w-full'}`}
             >
                 {/* Text Section */}

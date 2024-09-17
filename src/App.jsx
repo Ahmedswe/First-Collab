@@ -2,14 +2,19 @@ import 'rsuite/dist/rsuite.min.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+
+// Sections--------------
 import Hero_Section from "./Sections/Hero"
 import About_Section from './Sections/About';
-import Card from './components/Card_1';
+import Cards from './Sections/Cards';
 import Testimonials from './Sections/Testimonial';
 import Services from './Sections/Services';
 import About_Section_2 from './Sections/About_2';
 import Footer_section from './Sections/Footer';
-import Contact_section from './Sections/Contact';
+import ContactUs from './Sections/ContactUs';
+//import Contact_section from './Sections/ContactUs';
+//import ContactForm from "./components/ContactForm"
+//-----------------------
 
 function App() {
 
@@ -23,25 +28,19 @@ function App() {
         <Hero_Section></Hero_Section>
       </header>
 
-      <main>
-        <div className='w-11/12 mx-auto flex flex-wrap items-center justify-around mt-8'>
-          <Card></Card>
-          <Card></Card>
-          <Card></Card>
-        </div>
-
+      <main className='scroll-smooth'>
+        
+        <Cards></Cards>
         <About_Section></About_Section>
         <About_Section_2></About_Section_2>
         <Services></Services>
-        <Contact_section></Contact_section>
+        {/* <Contact_section></Contact_section> */}
+        <ContactUs/>
         <Testimonials></Testimonials>
-        <Footer_section></Footer_section>
-        
-        
       </main>
-
+      
       <footer>
-
+        <Footer_section></Footer_section>
       </footer>
   
     </>
@@ -51,14 +50,12 @@ function App() {
 export default App
 
 
-
-
-
-
-
-
-
-
+// display: inline-block;
+//     font-size: 56px;
+//     font-weight: 700;
+//     text-transform: lowercase;
+//     line-height: 1em;
+//     letter-spacing: -1.6px;
 
 
 
