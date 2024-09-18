@@ -10,7 +10,7 @@ function Testimonials() {
                 style={{
                     backgroundImage: `linear-gradient(135deg, #10054d 0%, #45108a 100%)`,
                 }}
-                className="flex flex-col lg:flex-row justify-evenly items-center py-20 px-4 lg:px-20 mt-20"
+                className="flex flex-col lg:flex-row justify-evenly items-center py-20 px-4 lg:px-14 mt-20"
             >
                 {/* Text Section */}
                 <div className="lg:w-[35%] text-white flex flex-col gap-3 mb-10 lg:mb-0">
@@ -28,27 +28,27 @@ function Testimonials() {
                 </div>
 
                 {/* Testimony Cards */}
-                <div className="flex flex-col lg:flex-row justify-evenly w-full lg:w-auto items-center text-white gap-y-10 md:gap-y-0 ">
-                    <Card
-                        img={img1}
-                        name={"Muhammad Ahmed"}
-                        img_size={115}
-                        color={"linear-gradient(135deg, rgba(16, 5, 77, 0.9) 0%, rgba(69, 16, 138, 0.9) 100%)"}
-                        content={
-                            "You bring the vision, and I bring the expertise. Our partnership is the ultimate blueprint for business success."
-                        }
-                    ></Card>
+                <div className="flex flex-col lg:flex-row justify-end w-full  items-center text-white  gap-x-14 ">
                     <Card
                         img={img2}
                         pad={true}
                         name={"Zartash Nabeel"}
-                        img_size={115}
-                        color={"linear-gradient(135deg, rgba(16, 5, 77, 0.9) 0%, rgba(69, 16, 138, 0.9) 100%)"}
+                        img_size={90}
+                        color={"linear-gradient(135deg, rgba(16, 5, 77, 0.9) 0%, rgba(69, 16, 158, 0.9) 100%)"}
                         content={
                             `                     Your journey isn’t just yours alone—it’s a part of my lifestyle too.           `
                         }
                         
                     ></Card>
+                        <Card
+                            img={img1}
+                            name={"Muhammad Ahmed"}
+                            img_size={90}
+                            color={"linear-gradient(135deg, rgba(16, 5, 77, 0.9) 0%, rgba(69, 16, 158, 0.9) 100%)"}
+                            content={
+                                "You bring vision I bring expertise. Our partnership is the ultimate blueprint "
+                            }
+                        ></Card>
                 </div>
             </section>
         </>
