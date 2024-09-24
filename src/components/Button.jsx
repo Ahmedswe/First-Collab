@@ -7,7 +7,7 @@ function Button(props){
 
     return <>
        <a className="hover:no-underline hover:text-purple-100" onClick={(e) => {
-              e.preventDefault(); // Prevent default anchor click behavior
+              e.preventDefault(); 
               document.querySelector('#contactus').scrollIntoView({
                 behavior: 'smooth'
               });
