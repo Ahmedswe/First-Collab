@@ -33,17 +33,10 @@ function Footer_section() {
           <ul className="flex flex-col items-center md:items-start">
             <li className="mb-2">
               <a href="mailto:nabeelzartash@gmail.com@gmail.com" className="hover:text-purple-500 hover:no-underline">
-              nabeelzartash@gmail.com
+                pen.byte.1@gmail.com
               </a>
             </li>
-            <li className="mb-2">
-              <a href="mailto:ab2034941@gmail.com" className="hover:text-purple-500 hover:no-underline">
-                ab2034941@gmail.com
-              </a>
-            </li>
-                
-            <li className="hover:text-purple-500 cursor-default">03**-*******</li>
-            <li className="hover:text-purple-500 cursor-default">03**-*******</li>
+            <li className="hover:text-purple-500 cursor-default">+92 344 4208156</li>
 
           </ul>
         </div>

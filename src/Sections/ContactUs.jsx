@@ -19,7 +19,7 @@ const ContactUs = () => {
 
         {/* Two divs with image, span, and p, vertically centered, shadow, and thicker border */}
         <div className="flex flex-col items-center mb-8 w-full max-w-md p-6 border-b-8 border-orange-500 shadow-lg rounded-lg">
-          <img src={img1}  alt="Icon" className="mb-4 w-12"/>
+          <img src={img1} alt="Icon" className="mb-4 w-12" />
           <div className="text-center">
             <span className="text-xl font-semibold block">(+92) 312 3456789</span>
             <p className="text-gray-600">Contact on WhatsApp and local number</p>
@@ -27,7 +27,7 @@ const ContactUs = () => {
         </div>
 
         <div className="flex flex-col items-center mb-8 w-full max-w-md p-6 border-b-8 border-purple-800 shadow-lg rounded-lg">
-          <img src={img3} alt="Icon" className="mb-4 w-12"/>
+          <img src={img3} alt="Icon" className="mb-4 w-12" />
           <div className="text-center">
             <span className="text-xl font-semibold block">Pen&Byte@p&b.com</span>
             <p className="text-gray-600">Send us an email to connect yourself with your prospers.</p>
@@ -48,7 +48,7 @@ const ContactUs = () => {
               type="text"
               placeholder="Name"
               {...register('name', { required: 'Name is required' })}
-              className="w-full px-4 py-2 border-b-1 border-2 shadow-lg focus:outline-none focus:rounded-md focus:ring-1 focus:ring-purple-500 bg-white" 
+              className="w-full px-4 py-2 border-b-1 border-2 shadow-lg focus:outline-none focus:rounded-md focus:ring-1 focus:ring-purple-500 bg-white"
             />
             {errors.name && <p className="text-red-500 text-xs mt-2">{errors.name.message}</p>}
           </div>
@@ -102,14 +102,14 @@ const ContactUs = () => {
 
           {/* Submit Button */}
           <div className="flex justify-center">
-  <button
-    type="submit"
-    className="flex justify-center items-center bg-purple-700 text-white  py-2 rounded-3xl hover:bg-purple-900 transition-colors duration-200 w-full mx-[5%] gap-2" // Full width minus margin
-  >
-    {<FaTelegramPlane></FaTelegramPlane>} 
-     Send Message
-  </button>
-</div>
+            <button
+              type="submit"
+              className="flex justify-center items-center bg-purple-700 text-white  py-2 rounded-3xl hover:bg-purple-900 transition-colors duration-200 w-full mx-[5%] gap-2" // Full width minus margin
+            >
+              {<FaTelegramPlane></FaTelegramPlane>}
+              Send Message
+            </button>
+          </div>
 
         </form>
       </div>

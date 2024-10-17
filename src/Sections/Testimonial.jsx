@@ -1,5 +1,5 @@
-import img1 from "../assets/a1.jpeg";
-import img2 from "../assets/z1.jpeg";
+import img1 from "../assets/avatar-1.png";
+import img2 from "../assets/avatar-2.png";
 import Card from "../components/Card_2 copy";
 import Button from "../components/Button";
 
@@ -32,21 +32,21 @@ function Testimonials() {
                     <Card
                         img={img2}
                         pad={true}
-                        name={"Zartash Nabeel"}
+                        name={"Yasmin"}
                         img_size={90}
                         color={"linear-gradient(135deg, rgba(16, 5, 77, 0.9) 0%, rgba(69, 16, 158, 0.9) 100%)"}
                         content={
-                            `                     Your journey isn’t just yours alone—it’s a part of my lifestyle too.           `
+                            `Was easy to work with! I would recommend him to any other folks looking for help with their website or design. `
                         }
                         
                     ></Card>
                         <Card
                             img={img1}
-                            name={"Muhammad Ahmed"}
+                            name={"Clark Kent"}
                             img_size={90}
                             color={"linear-gradient(135deg, rgba(16, 5, 77, 0.9) 0%, rgba(69, 16, 158, 0.9) 100%)"}
                             content={
-                                "You bring vision I bring expertise. Our partnership is the ultimate blueprint "
+                                "delivered work on time and were incredibly cooperative throughout the project. Highly recommended! "
                             }
                         ></Card>
                 </div>

@@ -24,7 +24,7 @@ function NavBar() {
 
         <ul className="hidden md:flex w-2/4 justify-center gap-x-8 items-center bg-transparent">
           <li className="hover:opacity-70 hover:cursor-pointer">
-            <a className='hover:no-underline hover:text-purple-400' onClick={(e) => {
+            <a className='hover:no-underline hover:text-purple-400 ' onClick={(e) => {
               e.preventDefault();
               document.querySelector('#services').scrollIntoView({
                 behavior: 'smooth'

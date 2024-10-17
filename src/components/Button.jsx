@@ -6,7 +6,7 @@ function Button(props){
 
 
     return <>
-       <a className="hover:no-underline hover:text-purple-100" onClick={(e) => {
+      <a className="hover:no-underline hover:text-purple-100" onClick={(e) => {
               e.preventDefault(); 
               document.querySelector('#contactus').scrollIntoView({
                 behavior: 'smooth'
